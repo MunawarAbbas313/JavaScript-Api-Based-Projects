@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ba8a1b;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container{
+    
+    
+}
+.wrapper{
+    position: absolute;
+    width: 70vmin;
+    top: 50%;
+    left: 37%;
+    text-align: center;
+    border: 2px solid rgb(18, 255, 141);
+    background-color: #0a0a08;
+    height: 70%;
+    border-radius: 20px;
+    transform: translateY(-50%);
+    padding: 50px;
+    box-shadow: 5px 7px 5px 15px rgb(255, 196, 0);
+}
+span{
+    font-size: 60px;
+}
+
+.joke{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.Jokebtn{
+    margin-top: 40px;
+    background-color: #8dff556d;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.6s ease-in;
+    
+}
+.Jokebtn:hover{
+    background-color: rgb(103, 167, 8);
+}
+@media screen and (max-width: 450px) {
+    .wrapper{
+       
+        width: 80%;
+        top: 50%;
+        left: 10%;
+        text-align: center;
+        
+        height: 70%;
+        border-radius: 20px;
+        transform: translateY(-50%);
+        padding: 50px;
+        box-shadow: 5px 5px 10px 5px blue;
+    }
+    span{
+        font-size: 50px;
+    }
+    
+    .joke{
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        
+    }
+    .Jokebtn{
+        margin-top: 20px;
+        background-color: #0000006d;
+        color: white;
+        border: none;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: all 0.6s ease-in;
+        
+    }
+    
+}
